@@ -11701,11 +11701,18 @@ body {
 }
 
 
+.bodyformulario{
 
+  width: 500px;
+  background-color: grays;
+  height: 600px;
+}
 
-
-
-
-#erroringreso{
-  display: none;
+.bodyimagenes{
+  margin: 0;
+  padding: 0;
+  background: url(./img/Imagen1);   
+  background-size: cover;
+  background-position: center;
+  font-family: sans-serif;
 }

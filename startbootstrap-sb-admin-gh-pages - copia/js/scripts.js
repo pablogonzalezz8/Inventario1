@@ -24,29 +24,3 @@ window.addEventListener('DOMContentLoaded', event => {
     }
 
 });
-
-var entrar = document.getElementById("ingreso")
-
-var contraseña = document.getElementById("inputPassword")
-
-var correo = document.getElementById("inputEmail")
-
-var error = document.getElementById("erroringreso")
-
-
-
-entrar.addEventListener("click" , function(){
-  if(contraseña.value == "hola" && correo.value == "ejemplo@gmail.com"){
-
-    entrar.href = entrar.href
-  }
-    else{
-          
-        entrar.href = error.href
-
-        alert("contraseña incorrecta")
-
-    }
-
-
-})

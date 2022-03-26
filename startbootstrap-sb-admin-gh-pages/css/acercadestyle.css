@@ -1,0 +1,25 @@
+body{
+    background-color:dimgrey; 
+}
+
+.whitesmall{
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 120%;
+}
+
+.white{
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.floatR{
+    float: right;
+}
+.floatL{
+    float: left;
+}
+
+.alineacion{
+    text-align: justify;
+    padding-right: 30px;
